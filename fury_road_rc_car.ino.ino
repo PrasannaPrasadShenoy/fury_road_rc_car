@@ -4,7 +4,7 @@ WiFiClient client;                     //hosting a web server
 WiFiServer server(80);
 
 const char* ssid = "device_name";    //userid and password of the respective network your nodemcu is connecting to
-const char* password = "password";
+const char* password = "device_password";
 
 String  data =""; 
 
